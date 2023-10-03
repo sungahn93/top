@@ -1,0 +1,39 @@
+<!-- protocol://domain/path -->
+<!-- https://www.theodinproject.com/about -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Links and Images</title>
+    </head>
+
+    <body>
+        <h1>Homepages</h1>
+        <!-- anchor tag <a> withtout "href" attribute is nothing but a plain text <a href="link"> Text </a> -->
+        <p>
+        <a href="https://www.theodinproject.com/about">Click Me by Dok2 featuring Zion.T</a>
+        </p>
+        <!-- while "href" specifies the destination link, "target" specifies whrre the linked resource will be opened. -->
+        <!-- Opening a link in a new tab or window set target to "_blank" -->
+        <!-- "rel" attribute used to describe the relation between the current page and the linked document. -->
+        <!-- "noopener" prevents the opened website from gaining access from the source. "noreferrer " will mask which website had the link to it. it also has "noopener" behaviour so can be used by itself. -->
+        <!-- "noopener" prevents phising attacks -->
+        <!-- recent versions of browsers have the security built in but its a recommended and a good practice to pair "_blank" with "noopener" and "noreferrer". -->
+        <p>
+        <a href="https://www.theodinproject.com/about" target ="_blank" rel="noopener noreferrer">Click Me More</a>
+        </p>
+        <!-- Links to pages on other website => Absolute lInks -->
+        <!-- Links to pages on our own website => Relatvie links -->
+        <p>
+        <a href="./pages/about.html">ABOUT</a>
+        <!-- Prepending " ./ " will in most cases prevent unexpected issues down the line. !!RECOMMENDED!! -->
+        <!-- By adding " ./ " , specifying code that it should look for the file/directory relative to the current directory. -->
+        </p>
+
+        <!-- <img> element is self-closing. embeds an img into the page using a "src attribute". -->
+        <img src= "./images/dog.jpg" alt= "Dog Image" height ="310" width ="310">
+
+    </body>
+</html>
