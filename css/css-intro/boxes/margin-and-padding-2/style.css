@@ -1,0 +1,41 @@
+body{
+    background:lightgray;
+    font-family: sans-serif;
+}
+
+button{
+    display: block;
+    background-color: white;
+    border: 2px gray;
+    margin: 0 auto;
+    padding: 8px 24px;
+}
+.card{
+    background: white;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-title,
+.card-content,
+.card-button{
+    background: #e3f4ff;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-content{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-button{
+    text-align: center;
+    padding: 10px;
+}
