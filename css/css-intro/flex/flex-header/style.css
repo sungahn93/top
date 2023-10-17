@@ -1,0 +1,38 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: rgb(254, 254, 168);
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-content: center;
+    padding: 0px;
+}
+
+li{
+    color: blue;
+    margin: 8cqh;
+    padding: 15px;
+    background: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+li:nth-child(3){
+    margin-right: auto;
+}
+
+li:nth-child(4){
+    color: orange;
+    font-size: 40px;
+}
+
+li:nth-child(5){
+    margin-left: auto;
+}
