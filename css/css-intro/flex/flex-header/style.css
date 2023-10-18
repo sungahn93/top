@@ -9,23 +9,22 @@ body{
 ul{
     display: flex;
     list-style-type: none;
+    padding: 3px;
     justify-content: center;
-    align-content: center;
-    padding: 0px;
+    align-items: center;
 }
 
 li{
     color: blue;
-    margin: 8cqh;
+    margin: 8px;
     padding: 15px;
     background: white;
     font-size: 20px;
     font-weight: 700;
-    border: 2px solid black;
 }
 
 li:nth-child(3){
-    margin-right: auto;
+    margin-right: auto; 
 }
 
 li:nth-child(4){
@@ -35,4 +34,8 @@ li:nth-child(4){
 
 li:nth-child(5){
     margin-left: auto;
+}
+
+li:nth-child(1),li:nth-child(2),li:nth-child(3),li:nth-child(5),li:nth-child(6),li:nth-child(7){
+    height:18px;   
 }
